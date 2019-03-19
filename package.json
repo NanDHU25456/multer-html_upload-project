@@ -1,0 +1,20 @@
+{
+  "name": "html-upload",
+  "version": "1.0.0",
+  "description": "A small project with multer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "NandhaKumar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "multer": "^1.4.1"
+  },
+  "proxy": "http://localhost:3000"
+}
